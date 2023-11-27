@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./Portfolio.module.css";
 import { Projects } from "./services/ProjectServices";
 import { nanoid } from "nanoid";
+import { Tooltip, Button } from "@mui/material";
 
 export default function Portfolio() {
   const content = Projects.map((item) => {
@@ -23,9 +24,15 @@ export default function Portfolio() {
           <a href={item.code} target="_blank">
             Code
           </a>
-          <a href={item.demo} target="_blank">
-            Demo
-          </a>
+          {item.demo ? (
+            <a href={item.demo} target="_blank">
+              Demo
+            </a>
+          ) : (
+            <Tooltip placement="top" title="Not Yet Deployed" arrow>
+              <a>Demo</a>
+            </Tooltip>
+          )}
         </div>
       </div>
     );

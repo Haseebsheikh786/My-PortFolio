@@ -87,4 +87,13 @@ export const Projects = [
     tags: ["React JS", "Express JS", "Node JS"],
     code: "https://github.com/Haseebsheikh786/ChatGPT-Clone",
   },
+  {
+    id: nanoid(),
+    img: "/assets/projects/Auth.png",
+    title: " Advanced Auth System ",
+    descrition:
+      "Developed a advanced auth system using Mern Stack. it has include email verification, reset password, sign up , sign in , sign out and also store and refresh jwt token in cookies. i used nodemailer for emails and multer for user image.",
+    tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
+    code: "https://github.com/Haseebsheikh786/MERN-Stack-Advanced-Authentication-Authorization",
+  },
 ];
