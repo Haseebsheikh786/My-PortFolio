@@ -2,9 +2,21 @@ import React from "react";
 import classes from "./Portfolio.module.css";
 import { Projects } from "./services/ProjectServices";
 import { nanoid } from "nanoid";
-import { Tooltip, Button } from "@mui/material";
-
+import { Button } from "@mui/material";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
 export default function Portfolio() {
+  const [open, setOpen] = React.useState(false);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setOpen(false);
+  };
   const content = Projects.map((item) => {
     return (
       <div
@@ -29,9 +41,26 @@ export default function Portfolio() {
               Demo
             </a>
           ) : (
-            <Tooltip placement="top" title="Not Yet Deployed" arrow>
-              <a>Demo</a>
-            </Tooltip>
+            <React.Fragment>
+              <a onClick={handleClickOpen}>Demo</a>
+              <Dialog
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="alert-dialog-title"
+                aria-describedby="alert-dialog-description"
+              >
+                <DialogContent>
+                  <DialogContentText id="alert-dialog-description">
+                    Not yet deployed{" "}
+                  </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                  <Button onClick={handleClose} autoFocus>
+                    ok{" "}
+                  </Button>
+                </DialogActions>
+              </Dialog>
+            </React.Fragment>
           )}
         </div>
       </div>

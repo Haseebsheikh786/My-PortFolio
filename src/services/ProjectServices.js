@@ -9,6 +9,7 @@ export const Projects = [
       "My portfolio, the site you are currently navigating, giving you an overview of me and my skills",
     tags: ["React JS", "Html", "CSS"],
     code: "https://github.com/Haseebsheikh786/My-PortFolio",
+    demo: "",
   },
   {
     id: nanoid(),
