@@ -37,9 +37,11 @@ export default function Portfolio() {
             Code
           </a>
           {item.demo ? (
-            <a href={item.demo} target="_blank">
-              Demo
-            </a>
+            item.demo === "portfolio" ? null : (
+              <a href={item.demo} target="_blank">
+                Demo
+              </a>
+            )
           ) : (
             <React.Fragment>
               <a onClick={handleClickOpen}>Demo</a>

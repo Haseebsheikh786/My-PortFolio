@@ -1,5 +1,4 @@
 import { nanoid } from "nanoid";
-
 export const skills = [
   {
     id: nanoid(),
@@ -33,6 +32,16 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: "SASS",
+    icon: "https://miro.medium.com/v2/resize:fit:968/1*RqQ0KppwlirfKPdYf6r4zg.png",
+  },
+  {
+    id: nanoid(),
+    title: "Firebase",
+    icon: "https://tse2.mm.bing.net/th?id=OIP.xSHn5nIiJ2poYGZaRoE8xgHaKJ&pid=Api&P=0&h=220",
+  },
+  {
+    id: nanoid(),
     title: "ExpressJS",
     icon: "data:image/png;base64,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",
   },
@@ -61,15 +70,5 @@ export const skills = [
     id: nanoid(),
     title: "GitHub",
     icon: "/assets/icons/github-logo-80.png",
-  },
-  {
-    id: nanoid(),
-    title: "npm",
-    icon: "/assets/icons/npm-logo.svg",
-  },
-  {
-    id: nanoid(),
-    title: "VSCode",
-    icon: "/assets/icons/visual-studio-code-2019.svg",
   },
 ];

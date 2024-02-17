@@ -21,15 +21,16 @@ export default function About() {
           <p
             className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
           >
-            Eager and committed MERN Stack Developer with a solid grasp of both
-            front-end and back-end technologies. Adept at developing responsive
-            web applications, my enthusiasm lies in embracing new technologies
-            to catalyze innovation. I've honed my skills through practical
-            experiences, ensuring a comprehensive understanding of the
-            intricacies involved in crafting robust software solutions. I
-            believe in the power of continuous learning and thrive on staying
-            updated with the latest trends in the dynamic world of web
-            development. Let's create cutting-edge solutions together!
+            Enthusiastic and committed MERN Stack Developer with six months of
+            industry experience, proficient in both front-end and back-end
+            technologies. Skilled in developing responsive web applications, I
+            am passionate about incorporating new technologies to foster
+            innovation. My expertise has been refined through hands-on
+            experiences, ensuring a holistic understanding of the complexities
+            inherent in building robust software solutions. I believe in the
+            importance of continuous learning and thrive on staying updated with
+            the latest trends in the dynamic field of web development. Let's
+            collaborate to craft cutting-edge solutions together!
           </p>
         </div>
       </div>

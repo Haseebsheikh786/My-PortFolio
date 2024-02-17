@@ -28,7 +28,7 @@
     min-height: 300px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-image: url('/public/assets/MyPIC.jpg');
+    background-image: url('/public/assets/mypicture.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid#ffb700;
