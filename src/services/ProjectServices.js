@@ -4,7 +4,7 @@ export const Projects = [
   {
     id: nanoid(),
     img: "/assets/projects/portfolio.png",
-    title: "Portfolio", 
+    title: "Portfolio",
     descrition:
       "My portfolio, the site you are currently navigating, giving you an overview of me and my skills",
     tags: ["React JS", "Html", "CSS"],
@@ -60,16 +60,7 @@ export const Projects = [
     demo: "https://blog-project-phi-dun.vercel.app/",
     code: "https://github.com/Haseebsheikh786/BLOG-APP",
   },
-  {
-    id: nanoid(),
-    img: "/assets/projects/crud.png",
-    title: "Crud App",
-    descrition:
-      "Developed a fully functional and responsive site, including all the crud functionality.",
-    tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
-    demo: "https://contacts-manager-app-topaz.vercel.app/",
-    code: "https://github.com/Haseebsheikh786/Contact-Manager-APP",
-  },
+   
   {
     id: nanoid(),
     img: "/assets/projects/socialMedia.png",
@@ -93,8 +84,9 @@ export const Projects = [
     img: "/assets/projects/Auth.png",
     title: " Advanced Auth System ",
     descrition:
-      "Developed a advanced auth system using Mern Stack. it has include email verification, reset password, sign up , sign in , sign out and also store and refresh jwt token in cookies. i used nodemailer for emails and multer for user image.",
+      "Developed a advanced auth system using Mern Stack. it has include email verification, reset password, sign up , sign in , sign out and also store and refresh jwt token in cookies. i used nodemailer for emails.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     code: "https://github.com/Haseebsheikh786/MERN-Stack-Advanced-Authentication-Authorization",
+    demo: "https://advance-auth-verification.vercel.app/",
   },
 ];
