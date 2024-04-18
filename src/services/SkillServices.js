@@ -15,11 +15,7 @@ export const skills = [
     title: "JavaScript",
     icon: "/assets/icons/javascript.svg",
   },
-  {
-    id: nanoid(),
-    title: "React",
-    icon: "/assets/icons/react-js.svg",
-  },
+
   {
     id: nanoid(),
     title: "Bootstrap",
@@ -39,6 +35,16 @@ export const skills = [
     id: nanoid(),
     title: "Firebase",
     icon: "https://tse2.mm.bing.net/th?id=OIP.xSHn5nIiJ2poYGZaRoE8xgHaKJ&pid=Api&P=0&h=220",
+  },
+  {
+    id: nanoid(),
+    title: "React",
+    icon: "/assets/icons/react-js.svg",
+  },
+  {
+    id: nanoid(),
+    title: "VueJS",
+    icon: "https://tse1.mm.bing.net/th?id=OIP.Uz_N149RpqTzgKWXTCPSagHaHa&pid=Api&P=0&h=220",
   },
   {
     id: nanoid(),

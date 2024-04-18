@@ -14,7 +14,7 @@ export default function Header() {
             {" "}
             <Typewriter
               options={{
-                strings: ["FullStack Developer!", "Mern Stack Developer!"],
+                strings: ["FullStack Developer!", "MERN Stack Developer!","MEVN Stack Developer!"],
                 autoStart: true,
                 loop: true,
               }}

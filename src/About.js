@@ -21,16 +21,16 @@ export default function About() {
           <p
             className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
           >
-            Enthusiastic and committed MERN Stack Developer with six months of
-            industry experience, proficient in both front-end and back-end
-            technologies. Skilled in developing responsive web applications, I
-            am passionate about incorporating new technologies to foster
-            innovation. My expertise has been refined through hands-on
-            experiences, ensuring a holistic understanding of the complexities
-            inherent in building robust software solutions. I believe in the
-            importance of continuous learning and thrive on staying updated with
-            the latest trends in the dynamic field of web development. Let's
-            collaborate to craft cutting-edge solutions together!
+            Passionate and dedicated Full Stack Developer with one year of
+            industry experience. Proficient in front-end and back-end
+            technologies, including Firebase integration. Experienced in
+            developing responsive web applications, I'm committed to leveraging
+            the latest technologies to drive innovation. My skills have been
+            honed through hands-on projects, providing a comprehensive
+            understanding of building robust software solutions. I prioritize
+            continuous learning, staying abreast of the latest trends in web
+            development. Let's collaborate to create cutting-edge solutions
+            together!
           </p>
         </div>
       </div>
