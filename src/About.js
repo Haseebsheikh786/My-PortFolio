@@ -21,15 +21,17 @@ export default function About() {
           <p
             className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
           >
-            Passionate and dedicated Full Stack Developer with one year of
-            industry experience. Proficient in front-end and back-end
-            technologies, including Firebase integration. Experienced in
-            developing responsive web applications, I'm committed to leveraging
-            the latest technologies to drive innovation. My skills have been
-            honed through hands-on projects, providing a comprehensive
-            understanding of building robust software solutions. I prioritize
-            continuous learning, staying abreast of the latest trends in web
-            development. Let's collaborate to create cutting-edge solutions
+            Dynamic and dedicated Web Developer with one year of industry
+            experience, including six months as a MERN Stack Developer at
+            NextPak Agile Solutions. Currently, I am expanding my expertise at
+            Devikons, working with both Vue.js and Laravel alongside MERN
+            technologies. I excel in creating responsive web applications and am
+            driven by a passion for integrating new technologies to drive
+            innovation. My comprehensive hands-on experience enables me to
+            understand the intricate details of building robust software
+            solutions. I am committed to continuous learning and stay updated
+            with the latest trends in the ever-evolving field of web
+            development. Let's collaborate to create state-of-the-art solutions
             together!
           </p>
         </div>

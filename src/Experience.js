@@ -28,7 +28,7 @@ export default function Experience() {
             <h4
               className={`${classes.experience} ${classes.animate__fadeInUp} ${classes.animate__animated}`}
             >
-              MERN Stack Developer (4 months)
+              MERN Stack Developer (6 months)
             </h4>
             <p
               className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
@@ -50,25 +50,26 @@ export default function Experience() {
             <h2
               className={`${classes.subTitle} ${classes.animate__fadeInUp} ${classes.animate__animated}`}
             >
-              SOFT FLEET
+              Devikons
             </h2>
             <h4
               className={`${classes.experience} ${classes.animate__fadeInUp} ${classes.animate__animated}`}
             >
-              VUE JS Developer (7 months)
+              Full Stack Developer (current)
             </h4>
             <p
               className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
             >
-              During my tenure at  Soft Fleet as a
-              Vue.js Developer, I specialized in front-end development,
-              collaborating closely with backend developers using Laravel and
-              MySQL, as well as with designers to create captivating user
-              interfaces. I also led projects where I developed both the
-              front-end with Vue.js and the backend with Node.js and MongoDB.
-              This hands-on experience allowed me to refine my skills in Vue.js
-              development, ensuring seamless user experiences while working
-              within multidisciplinary teams.
+              Currently at Devikons, I specialize in both front-end and back-end
+              development, primarily using Vue.js and the MERN stack. I work
+              closely with backend developers and designers to create engaging
+              and responsive user interfaces. I have led projects where I
+              developed the front-end with Vue.js or React.js and the backend
+              with Node.js, Express.js, and MongoDB. Additionally, I have
+              collaborated on projects using Laravel for backend development.
+              This hands-on experience has allowed me to refine my skills in
+              both Vue.js and MERN development, ensuring seamless user
+              experiences while working within multidisciplinary teams.
             </p>
           </div>
         </div>

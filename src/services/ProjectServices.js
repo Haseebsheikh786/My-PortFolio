@@ -23,6 +23,16 @@ export const Projects = [
   },
   {
     id: nanoid(),
+    img: "/assets/image.png",
+    title: "Booking App",
+    descrition:
+      "Created a comprehensive booking website for a client, featuring scheduling, user management, and admin controls.",
+    tags: ["Vue JS", "Laravel", "MYSQL"],
+    demo: "https://newmerchant.alojate.pro/merchant",
+    code: "/",
+  },
+  {
+    id: nanoid(),
     img: "/assets/projects/restaurent.png",
     title: "Restaurant App",
     descrition:
@@ -60,7 +70,7 @@ export const Projects = [
     demo: "https://blog-project-phi-dun.vercel.app/",
     code: "https://github.com/Haseebsheikh786/BLOG-APP",
   },
-   
+
   {
     id: nanoid(),
     img: "/assets/projects/socialMedia.png",

@@ -31,11 +31,7 @@ export const skills = [
     title: "SASS",
     icon: "https://miro.medium.com/v2/resize:fit:968/1*RqQ0KppwlirfKPdYf6r4zg.png",
   },
-  {
-    id: nanoid(),
-    title: "Firebase",
-    icon: "https://tse2.mm.bing.net/th?id=OIP.xSHn5nIiJ2poYGZaRoE8xgHaKJ&pid=Api&P=0&h=220",
-  },
+  
   {
     id: nanoid(),
     title: "React",
@@ -58,8 +54,23 @@ export const skills = [
   },
   {
     id: nanoid(),
+    title: "Laravel",
+    icon: "https://tse3.mm.bing.net/th?id=OIP.Qo-Lj2ZoQpdhKitBFJshpwHaHn&pid=Api&P=0&h=220",
+  },
+  {
+    id: nanoid(),
+    title: "Firebase",
+    icon: "https://tse2.mm.bing.net/th?id=OIP.xSHn5nIiJ2poYGZaRoE8xgHaKJ&pid=Api&P=0&h=220",
+  },
+  {
+    id: nanoid(),
     title: "MongoDB",
     icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAY1BMVEUTqlL///8AqEwAp0kApUMApkYAqE7z+vUAoz8Aojvk8+lXundbu3oqsF8jrlt3xZDr9u/Z7uC/4cmHzJ0AoDSz3cC64MVgvoBGtW3Q6tit2bmRzqJnvoL5/fs4sGGX0aig1K9crJiTAAAFZklEQVRogc2b67prMBCGQwh1plW0aO//KncoqxJBvlYfe/51PYtXDjOZU4gBi5fdHnFRhhEhUVgW8f2WefhbCPTfaR5HNhdqMkZ6Ycyk3V+iOE9/BE6yODJtShaEWiyqs2RvsJMVkbUIfcOjInN2BHvn0DW3qC8x3fasteIa4KpenmCV2FZd7QCugpPmYCfDPgWb6A2w518Yiu2EXfyNCV8FO/Fn2Bc6Xt1ma+CcQWsrC2X5R+Cktr7BdmLVy3q9CM7IV8MdBk0yFHx3v8d24t4hsBPsxOXkQL3HlGAv3GGaR6GhUrFU4Ip+rEQqYVRlTRTgbLdpHsVVbLE5+GrvzeXm+7oNzn7A5eTZmGVw9bXVUIsrr7ME9uCTSFeYtwZ2wp+BzdBZAQc76q8sNFgGo3YSU3fRek7B1xPGbX2MfLqqwQmGJaxMUVOTKMHoAru5UWN7kRYqcA5qsPvgkQU4ZCufgx3wYLBuH21HZwaOsYke7X6NWVgay2Dv8hHXMErsgy+eBMY0w33+rVXTQhuM+SK4ggZsnScK2WBm9lIJYGjAU60wOv1HHh6H/AJXiM1ikeQtV9AGO1UTMGQI5o7MAzEBZv0Ge8iDb414S4B8uOX9gc+ISlBFWOIhk03PI9gJgcfsx5xrGE9kznqXoAND/qyl4vL3ANJvEgKukP1UgzNAL8zgBU4i4Gsvaq5hRIAyd/rIwRmwPvS8BL4Cb7GyHoycS9Zy+k7/Jb1GcjAw0yxc5BpPQKWiDpzusLU68YBFNlMORlwecy1R6uuPgLtABFriaIWLbC++yATdFMsCuccGaYA9Yc3DXGGu9VfZbkgKgFeXGDLYdkqQQLxdz0WnADgjN30wKyWSI35I0uqDb+Suv6kH3+EtVynY1l9keiexvvZROUv3lPIL+u8yY1Lob0VLtltnCazvybCClPpgV9amWnL79Lc1Kwng9szcy0L6A2B9QwKcTbOUUSBlwq/6PhTifMzB/k38vX8ycgDLU+0/vwAjUy2DS8nVBdY4QjaXdZPBkgcGGOuQlPrgmadXSsckEJGUiAExgw2wfuzHDQhgMlnbCJymLKTf2oPgJhM4JAhLJZAv/AYiA35IAMei7IE4rXhOAlkvfiwijgAVz8VGAgOeNXcEENeHEGGRnbYVwIjPlULOnlRacFohsPCQFzWQe0tMXwQLfvYNCc5Bh5643jK41Z/p3qGHsrZmLIIna14hQWcOBm08ME+m4OlmQ/IKfdCGhKnikDn47d8CTvUQpho1lH89VRMwe4+/BAbc2QMwFSEYbKd8V7GQ5MuYioCSL0Lq1v8LphpoowzJF6PAShpvR6S2RzCkk2Z3qMEJNjIpEz7dAZxDFau/BJujH2z1Yo7LnA5Zb7AE244pReMM1ozpYDmbtgenWK3P/kuiYsnXnjycj49u0jywBDtJG6MVM/7VL3LD3+Fh1RAhUY6VBnqxRncrJeBHC6UBsPrTid32VgutwErFELD804tpdWS4lUEq/3wwZHLiOytBP1gueKElvk66iAaOD2clPrSoSV4RDeKV98/MippwGfelF0Ac0ouijAsXrgnjoRSQQelEVbjGS/WsbBrsiWlHxhfNCSR0HFCL1c0JsDFgSQo9sdSOgVf8L9gxvNiAclzLjeGEuzbNTWW9ycjwfjZkutpW9btGMmujkexXrXPWZuvccc2CaGShI3rtkXydzV0b6EymKt78Vy2wxzX9crnDfqdaTlibs3FcY/dxrexc8u8GTclnzfvGcdcVjMMuaHRSlZ9cSfG/vZLSo2sLMt87XcLp5KBrR504WXDERateNq+Wmb+4WjbIIZfpRmnS7HaXrg+mzfZzkvwDqO5ENMaDHagAAAAASUVORK5CYII=",
+  },
+  {
+    id: nanoid(),
+    title: "MYSQL",
+    icon: "https://tse1.mm.bing.net/th?id=OIP.zciMTYy4oAMdBnHXf2OZ_wHaDF&pid=Api&P=0&h=220",
   },
   {
     id: nanoid(),
@@ -67,6 +78,11 @@ export const skills = [
     icon: "/assets/icons/redux.svg",
   },
 
+  {
+    id: nanoid(),
+    title: "Pinia",
+    icon: "https://tse1.mm.bing.net/th?id=OIP.vUsGI-Xdt2qRJKilyRD24AHaHa&pid=Api&P=0&h=220",
+  },
   {
     id: nanoid(),
     title: "Git",
