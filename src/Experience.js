@@ -50,7 +50,7 @@ export default function Experience() {
             <h2
               className={`${classes.subTitle} ${classes.animate__fadeInUp} ${classes.animate__animated}`}
             >
-              Devikons
+              DEVIKONS
             </h2>
             <h4
               className={`${classes.experience} ${classes.animate__fadeInUp} ${classes.animate__animated}`}

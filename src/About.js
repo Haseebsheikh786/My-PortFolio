@@ -21,7 +21,7 @@ export default function About() {
           <p
             className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
           >
-            Dynamic and dedicated Web Developer with one year of industry
+            Dynamic and dedicated Web Developer with one plus year of industry
             experience, including six months as a MERN Stack Developer at
             NextPak Agile Solutions. Currently, I am expanding my expertise at
             Devikons, working with both Vue.js and Laravel alongside MERN
